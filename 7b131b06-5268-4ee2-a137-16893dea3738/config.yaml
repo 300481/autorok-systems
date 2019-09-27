@@ -3,4 +3,13 @@ templatesource:
   boot: https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/templates/boot
   rke: https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/templates/rke
   install: https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/templates/install
+bootserver: 192.168.0.45
 clustername: cluster
+nodecount: 1
+publickkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBDQ3iqR1kpO6KJvmrXHulJvNyd7DvFb29FSSCnSog+8
+startcidr: 192.168.0.113/28
+gateway: 192.168.0.1
+mtu: 1500
+dhcp: false
+nameservers:
+- 192.168.0.1
