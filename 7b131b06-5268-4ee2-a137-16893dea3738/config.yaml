@@ -3,7 +3,7 @@ templatesource:
   boot: https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/templates/boot
   install: https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/templates/install
   rke: https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/templates/rke
-clusterconfig: ""
+clusterconfig: "https://raw.githubusercontent.com/300481/autorok-systems/master/7b131b06-5268-4ee2-a137-16893dea3738/cluster.yaml"
 bootserver: 192.168.0.45
 clustername: cluster
 nodecount: 2
