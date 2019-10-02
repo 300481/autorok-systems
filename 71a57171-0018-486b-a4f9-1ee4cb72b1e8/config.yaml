@@ -1,0 +1,16 @@
+templatesource:
+  ipxe: "https://raw.githubusercontent.com/300481/autorok-systems/master/3c7a3ea5-a859-477a-84ae-b11cc8d35852/templates/ipxe"
+  boot: "https://raw.githubusercontent.com/300481/autorok-systems/master/3c7a3ea5-a859-477a-84ae-b11cc8d35852/templates/boot"
+  install: "https://raw.githubusercontent.com/300481/autorok-systems/master/3c7a3ea5-a859-477a-84ae-b11cc8d35852/templates/install"
+  rke: "https://raw.githubusercontent.com/300481/autorok-systems/master/3c7a3ea5-a859-477a-84ae-b11cc8d35852/templates/rke"
+clusterconfig: ""
+bootserver: 192.168.0.45
+clustername: cluster
+nodecount: 1
+publickkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOE9I5cYfEzy0rhWL18MRF+kmLRdKpug9YHrnF2lzlbs
+startcidr: 192.168.0.113/28
+gateway: 192.168.0.1
+mtu: 1500
+dhcp: false
+nameservers:
+- 192.168.0.1
