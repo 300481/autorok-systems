@@ -16,4 +16,4 @@ rancher:
       - {{ . }}
       {{- end }}
 runcmd:
-- sudo mkdir /data
+- sudo mkdir /mnt/data
