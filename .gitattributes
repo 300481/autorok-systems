@@ -1,5 +1,1 @@
 .gitattributes !filter !diff
-id_ed25519 filter=git-crypt diff=git-crypt
-id_ed25519.pub filter=git-crypt diff=git-crypt
-config.yaml filter=git-crypt diff=git-crypt
-cluster.yaml filter=git-crypt diff=git-crypt
