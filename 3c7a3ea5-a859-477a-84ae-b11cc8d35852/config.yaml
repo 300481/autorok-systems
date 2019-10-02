@@ -7,7 +7,7 @@ clusterconfig: ""
 bootserver: 192.168.0.45
 clustername: cluster
 nodecount: 1
-publickkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOE9I5cYfEzy0rhWL18MRF+kmLRdKpug9YHrnF2lzlbs
+publickkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINpGZNv6mEKc+uiJLPmz3Sld043vb0msB1l4xRjMG58D
 startcidr: 192.168.0.113/28
 gateway: 192.168.0.1
 mtu: 1500
