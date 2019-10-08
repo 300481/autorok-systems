@@ -11,7 +11,7 @@ nodes:
   user: rancher
   docker_socket: /var/run/docker.sock
   ssh_key: ""
-  ssh_key_path: ~/.ssh/id_ed25519
+  ssh_key_path: .ssh/id_ed25519
   labels: {}
 {{- end }}
 services:
@@ -73,7 +73,7 @@ authentication:
   sans: ["kubernetes.example.com"]
 addons: ""
 addons_include: []
-ssh_key_path: ~/.ssh/id_ed25519
+ssh_key_path: .ssh/id_ed25519
 ssh_agent_auth: false
 authorization:
   mode: rbac
