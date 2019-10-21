@@ -8,6 +8,7 @@ rancher:
       url: https://raw.githubusercontent.com/300481/rancheros-firewall/master
   services_include:
     rancheros-firewall: true
+    crontab: true
   network:
     interfaces:
       eth0:
