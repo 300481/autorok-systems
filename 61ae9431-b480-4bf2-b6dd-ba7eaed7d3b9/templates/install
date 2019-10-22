@@ -8,6 +8,7 @@ rancher:
       url: https://raw.githubusercontent.com/300481/rancheros-firewall/master
   services_include:
     rancheros-firewall: true
+    zfs: true
   network:
     interfaces:
       eth0:
@@ -22,4 +23,4 @@ rancher:
       {{- end }}
 runcmd:
 - sudo mkdir /mnt/data
-- sudo ros service up rancheros-firewall
+#- sudo ros service up rancheros-firewall
